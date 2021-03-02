@@ -1,0 +1,303 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: 500;
+}
+.Heading{
+ font-size: 30px !important;
+}
+@media screen and (max-width: 800px){
+    .Heading{
+        font-size: 20px !important;
+       }
+
+}
+nav{
+    background-color: #2f6aa5 !important;
+}
+nav a{
+    font-weight: 700;
+    color: white !important;
+    
+}
+.carousel-caption div{
+    background-color: white !important; 
+    opacity: 0.7; 
+}
+.carousel-caption p{
+    opacity: 0.9;
+    font-size: 20px;
+}
+.carousel-caption h5{
+    font-size: 40px;
+}
+.content-of-slider{
+    width:600px;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    box-shadow: 0 0 15px -5px #555;
+}
+.content-of-slider h5{
+    font-size: 50px;
+    font-weight: 700;
+}
+.content-of-slider p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-div{
+    background-color: #343a40 !important;
+    margin-bottom: -5px;
+}
+.div-of-logo{
+    color: #343a40 !important;
+    text-align: center;
+    margin-top: 10px;
+    border-collapse: collapse;
+   
+}
+.div-of-logo h1{
+    font-weight: 700;
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.main-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px; 
+}
+.cards{
+    width: 300px;
+    height: auto;
+}
+.div-w-100{
+    width: 100%;
+
+    background-color: #30363b;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+.div-w-100 h3{
+   color: white;
+   text-align: center;
+   font-size: 20px;
+}
+.div-w-100 p{
+    color: white;
+   text-align: center;
+   opacity: 0.6;
+}
+.card-cont{
+    padding: 50px;
+    height: 200px;
+}
+.cards-color1{
+    background-color: #3285c9 !important;
+}
+.cards-color2{
+    background-color: #317dc9 !important;
+}
+.cards-color3{
+    background-color: #1676be !important;
+
+}
+/* .fa-stethoscope{
+    color: white;
+    width: 30px;
+} */
+
+.fa-clinic-medical{
+    font-size: 35px !important;
+}
+.fa-user-nurse{
+    font-size: 35px !important;
+}
+.fa-thumbs-up{
+    font-size: 35px !important;
+}
+.cards{
+    /* background-color: red !important; */
+    padding: 10px;
+    text-align: center;
+    color: white !important;
+}
+.cards h3{
+    font-size: 23px !important;
+}
+.content-of-trnd ul{
+    padding-left: 10px;
+    list-style: none;
+}
+.content-of-trnd ul li:hover{
+    background-color: #2f6aa5 !important;
+    color: white !important;
+}
+.content-of-trnd ul li{
+    padding: 5px;
+    color:  #2f6aa5;
+    font-size: 18px !important;
+    font-weight: 500;
+    width: fit-content;
+}
+/* .content-of-trnd ul li img{
+    /* border: 2px solid red; */
+    /* padding: 10px;
+    width: 80px; */
+/* } */
+
+
+/* popular collection */
+
+.w-of-div img{
+    border-radius: 50%;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    background-color: yellow !important;
+}
+.w-of-div p{
+    width: 190px;
+   text-align: center;
+   font-weight: 500;
+   margin-top: 20px !important;
+   /* background-color: yellow; */
+}
+.pop-col{
+    font-size: 30px;
+    padding: 10px;
+}
+.rounded img{
+    border-radius: 50%;
+}
+.health1{
+    margin-top: 5px;
+}
+.health h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.health p{
+    font-size: 13px;
+    width: fit-content;
+    font-weight: 500;
+
+}
+.health{
+    align-items: center !important;
+    margin-top: 15px !important;
+}
+.h-m-heading{
+    color: #2f6aa5 !important;
+    font-size: 30px;
+}
+.w-of-div:hover{
+    color: #2f6aa5 !important;
+}
+.ul-of-featured{
+    padding: 0px;
+    list-style: none;
+    color: #2f6aa5;
+    font-size: 19px;
+}
+.ul-of-featured li{
+    background-color: white !important;
+    /* width: 625px; */
+    border-bottom: 1px solid rgb(228, 217, 217);
+    padding: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.2s;
+}
+.heading-on-feature h3{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.ul-of-featured li:hover{
+    color: white;
+    background-color: #2f6aa5 !important;
+}
+footer{
+    background-color: 
+    #6c408d;
+
+}
+.social-link{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* height: 80px; */
+}
+.inst{
+    font-size: 32px !important;
+    padding-top: 13px !important;
+}
+.gmail{
+    font-size: 29px !important;
+  /* border: 1px solid red; */
+    padding-top: 15px !important;
+}
+.fbicon{
+    font-size: 27px !important;
+    /* border: 1px solid red; */
+      padding-top: 17px !important;
+}
+.whats{
+    font-size: 32px !important;
+  
+    padding-top: 13px !important
+}
+.social-link p{
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 20px !important;
+    /* border: 1px solid red; */
+    /* border-right: 1px solid white; */
+}
+.social-link ul{
+    padding: 0px;
+    list-style: none;
+}
+.social-link ul li{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.l-footer{
+    background-color: #2f6aa5 !important;
+    color: white;
+}
+
+.l-footer h4{
+    background-color: #2f6aa5 !important;
+    color: white;
+    padding: 10px 5px;
+    font-size: 25px;
+    border-bottom: 1px dashed rgb(94, 94, 94);
+    width: fit-content;
+}
+
+.l-footer li{
+    font-size: 14px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.l-footer ul{
+    font-size: 14px;
+    list-style: none;
+    margin-top: 20px;
+}
